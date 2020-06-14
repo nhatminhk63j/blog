@@ -1,0 +1,23 @@
+.main-footer {
+    background: #0e0e0e;
+    padding: 40px 0;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+.main-footer a:hover{
+    text-decoration: none;
+    color: #777373;
+}
+
+.main-footer ul {
+    padding-left: 50px;
+}
+
+.main-footer ul li {
+    padding-bottom: 10px;
+}

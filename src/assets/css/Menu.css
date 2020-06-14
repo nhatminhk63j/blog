@@ -1,0 +1,114 @@
+@media (max-width: 767px) {
+    nav.navbar .search-btn {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    nav.navbar .container {
+      width: 100%;
+    }
+    .breadcrumb li {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  /*
+  * ==========================================================
+  *     NAVBAR
+  * ==========================================================
+  */
+  .navbar {
+    background: #fff;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    z-index: 9998;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    }
+    .navbar-brand:hover{
+        color: #333;
+    }
+  
+  .navbar .navbar-toggler {
+    margin-top: 5px;
+  }
+  
+  .navbar .navbar-toggler span {
+    width: 20px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  .navbar .navbar-toggler span:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .navbar .navbar-toggler.active span {
+    margin: 0;
+  }
+  
+  .navbar .navbar-toggler.active span:first-of-type {
+    -webkit-transform: rotate(45deg) translate(3px);
+    transform: rotate(45deg) translate(3px);
+  }
+  
+  .navbar .navbar-toggler.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+  
+  .navbar .navbar-toggler.active span:last-of-type {
+    -webkit-transform: rotate(-45deg) translate(3px);
+    transform: rotate(-45deg) translate(3px);
+  }
+  
+  .navbar .navbar-nav a.nav-link {
+    color: #333;
+    margin: 0 5px;
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+  
+  .navbar .navbar-nav a.nav-link:hover {
+    color: #999;
+  }
+  
+  .navbar .navbar-nav a.nav-link.active {
+    color: #999;
+    font-weight: bold;
+  }
+
+  .navbar .navbar-nav svg {
+      padding-left: 5px;
+  }
+  
+  /* Navbar Media Query ------------------------------------- */
+  @media (max-width: 991px) {
+    nav.navbar .navbar-header {
+      width: 100%;
+    }
+    nav.navbar::after {
+      width: 100%;
+    }
+    nav.navbar.active::after {
+      width: calc(100% - 170px);
+    }
+    nav.navbar .search-area {
+      font-size: 0.75em;
+    }
+  }
+  

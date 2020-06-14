@@ -1,0 +1,59 @@
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+  
+  section.hero {
+    padding: 0;
+    color: #fff;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+
+a.hero-link {
+    color: inherit !important;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: none !important;
+    margin-top: 20px;
+    font-weight: 300;
+    text-decoration: underline !important;
+}
+
+.home {
+    font-size: 1.2rem;
+}
+
+section{
+    padding: 40px 0;
+    font-size: 1.2rem;
+}
+
+section.newsletter input {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    border: 1px solid #111;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+section.newsletter .submit {
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    background: #111;
+    border: 1px solid #111;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
